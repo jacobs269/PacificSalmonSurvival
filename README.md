@@ -20,7 +20,7 @@ pinkdata.csv (1207 rows):
 
 IMPORTANT NOTICE #1
 *******************
-All code is in written in R. Before attempting to run the below files, ensure that the following packages are installed:
+All code is in written in R. Before attempting to run the files described below, ensure that the following packages are installed:
 - tidyverse (R package)
 - stringr (R package)
 - rjags (R package)
