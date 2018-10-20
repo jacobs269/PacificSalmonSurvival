@@ -8,14 +8,14 @@ Below is a quick description of the data source, and then some additional inform
 pinkdata.csv (1207 rows): 
 
   The raw data. Each row is information for a yearly cycle of breeding for a given salmon population
-    - Species: Species of the salmon population
-    - Stock: Name of the salmon population
-    - Region: The region in which the salmon population breeds
-    - Latitude: Latitude for breeding location
-    - Longitude: Longitude for breeding location
-    - BY: Year for which this row represents information about the salmon population's breeding behavior
-    - S: Number of Adults observed at the spawning site in the BY
-    - R: Number of offspring from the spawning site in BY
+  - Species: Species of the salmon population
+  - Stock: Name of the salmon population
+  - Region: The region in which the salmon population breeds
+  - Latitude: Latitude for breeding location
+  - Longitude: Longitude for breeding location
+  - BY: Year for which this row represents information about the salmon population's breeding behavior
+  - S: Number of Adults observed at the spawning site in the BY
+  - R: Number of offspring from the spawning site in BY
     
 
 IMPORTANT NOTICE #1
