@@ -1,0 +1,10 @@
+model
+{
+  for(i in 1:nRow) {
+    s[i] ~ dbin(p[i],n[i])
+    logit(p[i]) <- alpha[region[i]]
+  }
+  for (j in 1:nReg) {
+    alpha[j] ~ dnorm(0,.001)
+  }
+}

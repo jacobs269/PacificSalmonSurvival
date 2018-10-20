@@ -1,0 +1,13 @@
+model
+{
+  for(i in 1:nRow) {
+    s[i] ~ dbin(p[i],n[i])
+    logit(p[i]) <- alpha[region[i]]
+  }
+  for (j in 1:nReg) {
+    alpha[j] ~ dnorm(mu[j],tau2alpha)
+    mu[j] <- beta2*asd[j]
+  }
+  beta2 ~ dnorm(0,.001)
+  tau2alpha ~ dgamma(.001,.001)
+}
