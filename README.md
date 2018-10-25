@@ -19,7 +19,7 @@ pinkdata.csv (1207 rows):
 
 IMPORTANT NOTICE #1
 *******************
-All code is in written in R. Before attempting to run the files described below, ensure that the following packages are installed:
+All code is in written in R. Before attempting to run the files described below, ensure that the following software is installed:
 - JAGS
 - rJAGS (R package)
 - tidyverse (R package)
@@ -48,11 +48,11 @@ Please be aware that model 2 will take a while to run (More than 5 minutes). All
 
 The rest of this README describes the files/folders included in the zip
 
-dataPrep.R: Takes the raw data set (pinkdata.csv), and adds some variables that are important for model building. This script saves a new dataset (auxPink.rds), that is used during model building. [Corresponds to section 5.6.1 of the report]
+dataPrep.R: Takes the raw data set (pinkdata.csv), and adds some variables that are important for model building. This script saves a new dataset (auxPink.rds), that is used during model building.
 
-EDA.R: Code for visualizations produced in the exploratory data analysis [Corresponds to section 5.6.4 of the report]
+EDA.R: Code for visualizations produced in the exploratory data analysis
 
-JAGS (Folder): Contains the Jags code for models 1, 2, and 3 [Corresponds to section 5.6.2 of the report]
+JAGS (Folder): Contains the Jags code for models 1, 2, and 3
 
 Models (Folder): Contains the r code for the 3 models. For models 1,2 and 3, the JAGS models are fit, and the trace plots for displayed. [Corresponds to section 5.6.3 of the report]. ONLY for model 3, (the final model), there exists additional analysis of the posterior samples included at the end of the file [Corresponds to section 5.6.5 of the report]
     
