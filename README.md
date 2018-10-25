@@ -1,5 +1,4 @@
 # Pacific Salmon Survival
-Investigating Regional Effects on North American Pacific Salmon Survival
 
 Jacobs-Peter-STAT6570-final-project.pdf: Final report describing analysis and results.
 
@@ -21,6 +20,8 @@ pinkdata.csv (1207 rows):
 IMPORTANT NOTICE #1
 *******************
 All code is in written in R. Before attempting to run the files described below, ensure that the following packages are installed:
+- JAGS
+- rJAGS (R package)
 - tidyverse (R package)
 - stringr (R package)
 - rjags (R package)
