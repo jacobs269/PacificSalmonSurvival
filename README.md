@@ -33,7 +33,7 @@ All code is in written in R. Before attempting to run the files described below,
 
 IMPORTANT NOTICE #2
 *******************
-Any script included in this project can be run by setting the working directory to the location of the script [THERE IS NO DEPENDENCE IN THE ORDER THAT SCRIPTS ARE RUN; SCRIPTS ARE INCLUDED IN THIS FILE TO SHOW YOU WHAT I HAVE DONE]. If something goes wrong [which it should not], please CLEAR your global environment and then run the script again.
+After downloading the repository, any script included in this project can be run by setting the working directory to the location of the script. If something goes wrong [which it should not], please CLEAR your global environment and then run the script again.
 *******************
 
 IMPORTANT NOTICE #3
