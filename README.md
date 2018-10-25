@@ -54,7 +54,7 @@ EDA.R: Code for visualizations produced in the exploratory data analysis
 
 JAGS (Folder): Contains the Jags code for models 1, 2, and 3
 
-Models (Folder): Contains the r code for the 3 models. For models 1,2 and 3, the JAGS models are fit, and the trace plots for displayed. [Corresponds to section 5.6.3 of the report]. ONLY for model 3, (the final model), there exists additional analysis of the posterior samples included at the end of the file [Corresponds to section 5.6.5 of the report]
+Models (Folder): Contains the r code for the 3 models. For models 1,2 and 3, the JAGS models are fit, and the trace plots for displayed. ONLY for model 3, (the final model), there exists additional analysis of the posterior samples included at the end of the file
     
 
     
