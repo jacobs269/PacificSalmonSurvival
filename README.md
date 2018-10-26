@@ -55,6 +55,12 @@ EDA.R: Code for visualizations produced in the exploratory data analysis
 JAGS (Folder): Contains the Jags code for models 1, 2, and 3
 
 Models (Folder): Contains the r code for the 3 models. For models 1,2 and 3, the JAGS models are fit, and the trace plots for displayed. ONLY for model 3, (the final model), there exists additional analysis of the posterior samples included at the end of the file
+
+## Citations and Credits
+
+* Brigitte Dorner, Randall M. Peterman, and Zhenming Su.  Evaluation of performance ofalternative management models of pacific salmon (oncorhynchus spp.) in the presence ofclimatic change and outcome uncertainty using monte carlo simulations.Canadian Journal ofFisheries and Aquatic Sciences, 66(12):2199?2221, 2009.
+
+* Thank you to Dr. Chkrebtii for giving permission to show this work to others 
     
 
     
